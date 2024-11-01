@@ -1,5 +1,5 @@
 // Presentation Layer - Simulating a user interface
-package airlineca;
+package CreateAcc;
 import java.util.Scanner;
 
 public class Main{
@@ -18,7 +18,6 @@ public class Main{
         System.out.print("Enter your password: ");
         String password = scan.nextLine();
 
-        // Create the account using business logic
         boolean isCreated = accountService.createAccount(name, email, password);
 
         if (isCreated) {

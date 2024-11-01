@@ -1,5 +1,5 @@
 // Entity Class for Account
-package airlineca;
+package CreateAcc;
 public class Account {
     private String name;
     private String email;
