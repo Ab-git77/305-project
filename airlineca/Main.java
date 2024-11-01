@@ -2,7 +2,7 @@
 package airlineca;
 import java.util.Scanner;
 
-public class MainApp {
+public class Main{
     public static void main(String[] args) {
         Scanner scan = new Scanner(System.in);
         AccountService accountService = new AccountService();
