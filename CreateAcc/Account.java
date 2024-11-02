@@ -10,4 +10,6 @@ public class Account {
         this.email = email;
         this.password = password;
     }
+
+    //class used to initialize data and for any needed added getters or setters
 }
